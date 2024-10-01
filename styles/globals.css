@@ -56,6 +56,54 @@ body {
   background-clip: content-box;
 }
 
+#wrap {
+  margin: 20px;
+  text-align: center;
+}
+
+.btn-slide {
+  background: #0f141c;
+  border-radius: 30px;
+  display: inline-block;
+  height: 60px;
+  line-height: 50px;
+  padding: 0;
+  position: relative;
+  transition: .5s;
+  width: 100%;
+}
+
+.btn-slide span.circle {
+  align-items: center;
+  background-color: #ff759c;
+  border-radius: 50%;
+  display: block;
+  display: flex;
+  height: 48px;
+  justify-content: center;
+  left: 0;
+  line-height: 42px;
+  margin: 5px;
+  position: absolute;
+  top: 1px;
+  transition: .5s;
+  width: 48px;
+}
+
+.btn-slide span.title, .btn-slide span.title-hover {
+  color: #fff;
+  color: var(--1, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  left: 90px;
+  left: 80px;
+  margin: 0 auto;
+  position: absolute;
+  text-align: center;
+  top: 7px;
+  transition: .5s;
+}
+
 .container,
 .container-fluid,
 .container-lg,
