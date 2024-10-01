@@ -22,8 +22,11 @@ export default function Home() {
       <div className="container">
         <button className="menu-toggle-button">Menu btn</button>
         <div className="side-menu">
-          menu
-          <div className="profile-img-main"></div>
+          <div className="profile-img-main">
+            <Image src={"/profile-img.png"} alt="profile-img" width={210} height={180}/>
+            <h1 className="text-2xl pt-4 pb-1 mb-2">Shahzad Ali</h1>
+            <h2 className="mb-2">MERN/Stack Developer</h2>
+          </div>
           <div className="menu-list-main">
             <ul className="mb-4">
               <li className="border-t border-gray-500 py-2.5 px-5">

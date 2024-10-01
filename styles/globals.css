@@ -14,6 +14,14 @@
   }
 }
 
+* {
+  box-sizing: border-box;
+  font-family: DM Sans, sans-serif !important;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   color: var(--background);
   background: var(--foreground);
@@ -113,6 +121,15 @@ body {
 
 .profile-img-main {
   padding: 20px 20px 0;
+  text-align: center;
+}
+
+.profile-img-main h2 {
+  color: #909090;
+  color: var(--14, #909090);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
   text-align: center;
 }
 
